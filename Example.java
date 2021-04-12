@@ -6,7 +6,7 @@ Scanner sc=new Scanner(System.in);
       String str = sc.next();
       char[] carray = str.toCharArray();
       System.out.println("The string is:" + str);
-      System.out.print("Duplicate Characters in above string are: ");
+      System.out.print("Duplicate Characters are: ");
       for (int i = 0; i < str.length(); i++) {
          for (int j = i + 1; j < str.length(); j++) {
             if (carray[i] == carray[j]) {
