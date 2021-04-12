@@ -1,0 +1,7 @@
+import java.util.*;
+class Java{
+public ststtic void main(String args[])
+{
+System.out.println("Hello world");
+}
+}
